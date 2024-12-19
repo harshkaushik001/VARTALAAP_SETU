@@ -1,0 +1,159 @@
+==========================================================================
+
+DATASET
+https://www.kaggle.com/datasets/datamunge/sign-language-mnist
+
+==========================================================================
+
+STREAMLIT RUN COMMAND
+streamlit run "c:\Users\harsh\Desktop\FINAL YEAR PROJECT\TRIAL4.py"
+
+streamlit run "c:\Users\harsh\Desktop\FINAL YEAR PROJECT\TRIAL5.py"
+
+streamlit run "c:\Users\harsh\Desktop\FINAL YEAR PROJECT\TRIAL8.py"
+
+=======================================================================================
+=======================================================================================
+
+IMAGE_URLS = {
+
+'a': 'https://drive.google.com/uc?export=download&id=11E6lCsp9AFQq2ElzfZQ_UrV9RihMuIEV',
+'b': 'https://drive.google.com/uc?export=download&id=1Od5a7OYDvjCHB0xwle6muPoAvpPiUvnQ',
+'c': 'https://drive.google.com/uc?export=download&id=1v9vumaz2j4zqlqPi9UmRtW1v2LnZ1xh5',
+'d': 'https://drive.google.com/uc?export=download&id=10POxe4_I6yG1n-G_e_XOpWzyzU3w8Q9v',
+'e': 'https://drive.google.com/uc?export=download&id=1LWPNSq8-nqQCfI8lrGlNy2URWYTL_f16',
+'f': 'https://drive.google.com/uc?export=download&id=18uC07m2EzYDSnfry9dsOTP0t-sXZ3cH3',
+'g': 'https://drive.google.com/uc?export=download&id=1XGGYwDkNbb4XvyLGcQXzyKK6Jxxc8fHK',
+'h': 'https://drive.google.com/uc?export=download&id=1xim-dJ3hor2DYPXIqkZMXcyT6ONHRsvk',
+'i': 'https://drive.google.com/uc?export=download&id=1gWseklvAmNGmqqZFjzvowVxxQd__ILQ5',
+'j': 'https://drive.google.com/uc?export=download&id=1RgNwPFB1Tw7NMLYnPyKissZbgg0OyvVd',
+'k': 'https://drive.google.com/uc?export=download&id=18ylfC5jfX8Sz_ayWbRgMM668WPZlIV8-',
+'l': 'https://drive.google.com/uc?export=download&id=1NCLeWc7MAfrdlo-Gh3U0yCQSiHLslCz1',
+'m': 'https://drive.google.com/uc?export=download&id=1K74XQACJvp-xWvv29Sp2EKEYz4vMTUfk',
+'n': 'https://drive.google.com/uc?export=download&id=1y6_NPjnVpqRMZoWjGHcwNyWw0qMgD2kZ',
+'o': 'https://drive.google.com/uc?export=download&id=17tT9PjtOdZz_qwun1e3GM3d68IfQpdSZ',
+'p': 'https://drive.google.com/uc?export=download&id=12niQPGHKd4W7YbD68XqTioCJIHjuQlFJ',
+'q': 'https://drive.google.com/uc?export=download&id=1Takk-V-Y7pZER8Kpa_aWLn7IxWFLiOui',
+'r': 'https://drive.google.com/uc?export=download&id=1Oe_7DkaRHSO82kjTZv3zPwZPOjeLp3W3',
+'s': 'https://drive.google.com/uc?export=download&id=1U1IvQzhGhEg5mC85Y3SDexSsxtSeFAZ9',
+'t': 'https://drive.google.com/uc?export=download&id=13Uajzk6bA8K4abrd0JykMO-o1x6SA2lJ',
+'u': 'https://drive.google.com/uc?export=download&id=1RRIE3wYBFJu_n4hSHvIrqcDq_uTbOxEg',
+'v': 'https://drive.google.com/uc?export=download&id=1gDJxItXS_qUAK-lcC_pnkoSOr5KK6b8O',
+'w': 'https://drive.google.com/uc?export=download&id=1vwdr1IYpZc-vJ_nxpYSDl2KuYJ7roLt-',
+'x': 'https://drive.google.com/uc?export=download&id=1ll2rKEkQZRp_Jvv5YOind8gxDWmW65tD',
+'y': 'https://drive.google.com/uc?export=download&id=1z4bDQzWSAg4bLSmfmfSgJfVQOjagqvgY',
+'z': 'https://drive.google.com/uc?export=download&id=1pbcNSgMMJ8PsFFmmg5FdXmYMkNr113Yo'
+
+}
+
+=======================================================================================
+=======================================================================================
+
+IMAGE LINKS
+
+A:https://drive.google.com/file/d/11E6lCsp9AFQq2ElzfZQ_UrV9RihMuIEV/view?usp=sharing
+B:https://drive.google.com/file/d/1Od5a7OYDvjCHB0xwle6muPoAvpPiUvnQ/view?usp=sharing
+C:https://drive.google.com/file/d/1v9vumaz2j4zqlqPi9UmRtW1v2LnZ1xh5/view?usp=sharing
+D:https://drive.google.com/file/d/10POxe4_I6yG1n-G_e_XOpWzyzU3w8Q9v/view?usp=sharing
+E:https://drive.google.com/file/d/1LWPNSq8-nqQCfI8lrGlNy2URWYTL_f16/view?usp=sharing
+F:https://drive.google.com/file/d/18uC07m2EzYDSnfry9dsOTP0t-sXZ3cH3/view?usp=sharing
+G:https://drive.google.com/file/d/1XGGYwDkNbb4XvyLGcQXzyKK6Jxxc8fHK/view?usp=sharing
+H:https://drive.google.com/file/d/1xim-dJ3hor2DYPXIqkZMXcyT6ONHRsvk/view?usp=sharing
+I:https://drive.google.com/file/d/1gWseklvAmNGmqqZFjzvowVxxQd__ILQ5/view?usp=sharing
+J:https://drive.google.com/file/d/1RgNwPFB1Tw7NMLYnPyKissZbgg0OyvVd/view?usp=sharing
+K:https://drive.google.com/file/d/18ylfC5jfX8Sz_ayWbRgMM668WPZlIV8-/view?usp=sharing
+L:https://drive.google.com/file/d/1NCLeWc7MAfrdlo-Gh3U0yCQSiHLslCz1/view?usp=sharing
+M:https://drive.google.com/file/d/1K74XQACJvp-xWvv29Sp2EKEYz4vMTUfk/view?usp=sharing
+N:https://drive.google.com/file/d/1y6_NPjnVpqRMZoWjGHcwNyWw0qMgD2kZ/view?usp=sharing
+O:https://drive.google.com/file/d/17tT9PjtOdZz_qwun1e3GM3d68IfQpdSZ/view?usp=sharing
+P:https://drive.google.com/file/d/12niQPGHKd4W7YbD68XqTioCJIHjuQlFJ/view?usp=sharing
+Q:https://drive.google.com/file/d/1Takk-V-Y7pZER8Kpa_aWLn7IxWFLiOui/view?usp=sharing
+R:https://drive.google.com/file/d/1Oe_7DkaRHSO82kjTZv3zPwZPOjeLp3W3/view?usp=sharing
+S:https://drive.google.com/file/d/1U1IvQzhGhEg5mC85Y3SDexSsxtSeFAZ9/view?usp=sharing
+T:https://drive.google.com/file/d/13Uajzk6bA8K4abrd0JykMO-o1x6SA2lJ/view?usp=sharing
+U:https://drive.google.com/file/d/1RRIE3wYBFJu_n4hSHvIrqcDq_uTbOxEg/view?usp=sharing
+V:https://drive.google.com/file/d/1gDJxItXS_qUAK-lcC_pnkoSOr5KK6b8O/view?usp=sharing
+W:https://drive.google.com/file/d/1vwdr1IYpZc-vJ_nxpYSDl2KuYJ7roLt-/view?usp=sharing
+X:https://drive.google.com/file/d/1ll2rKEkQZRp_Jvv5YOind8gxDWmW65tD/view?usp=sharing
+Y:https://drive.google.com/file/d/1z4bDQzWSAg4bLSmfmfSgJfVQOjagqvgY/view?usp=sharing
+Z:https://drive.google.com/file/d/1pbcNSgMMJ8PsFFmmg5FdXmYMkNr113Yo/view?usp=sharing
+
+==========================================================================
+
+IMAGE IDs
+
+A:11E6lCsp9AFQq2ElzfZQ_UrV9RihMuIEV
+B:1Od5a7OYDvjCHB0xwle6muPoAvpPiUvnQ
+C:1v9vumaz2j4zqlqPi9UmRtW1v2LnZ1xh5
+D:10POxe4_I6yG1n-G_e_XOpWzyzU3w8Q9v
+E:1LWPNSq8-nqQCfI8lrGlNy2URWYTL_f16
+F:18uC07m2EzYDSnfry9dsOTP0t-sXZ3cH3
+G:1XGGYwDkNbb4XvyLGcQXzyKK6Jxxc8fHK
+H:1xim-dJ3hor2DYPXIqkZMXcyT6ONHRsvk
+I:1gWseklvAmNGmqqZFjzvowVxxQd__ILQ5
+J:1RgNwPFB1Tw7NMLYnPyKissZbgg0OyvVd
+K:18ylfC5jfX8Sz_ayWbRgMM668WPZlIV8-
+L:1NCLeWc7MAfrdlo-Gh3U0yCQSiHLslCz1
+M:1K74XQACJvp-xWvv29Sp2EKEYz4vMTUfk
+N:1y6_NPjnVpqRMZoWjGHcwNyWw0qMgD2kZ
+O:17tT9PjtOdZz_qwun1e3GM3d68IfQpdSZ
+P:12niQPGHKd4W7YbD68XqTioCJIHjuQlFJ
+Q:1Takk-V-Y7pZER8Kpa_aWLn7IxWFLiOui
+R:1Oe_7DkaRHSO82kjTZv3zPwZPOjeLp3W3
+S:1U1IvQzhGhEg5mC85Y3SDexSsxtSeFAZ9
+T:13Uajzk6bA8K4abrd0JykMO-o1x6SA2lJ
+U:1RRIE3wYBFJu_n4hSHvIrqcDq_uTbOxEg
+V:1gDJxItXS_qUAK-lcC_pnkoSOr5KK6b8O
+W:1vwdr1IYpZc-vJ_nxpYSDl2KuYJ7roLt-
+X:1ll2rKEkQZRp_Jvv5YOind8gxDWmW65tD
+Y:1z4bDQzWSAg4bLSmfmfSgJfVQOjagqvgY
+Z:1pbcNSgMMJ8PsFFmmg5FdXmYMkNr113Yo
+
+==========================================================================
+
+==========================================================================
+
+
+DIRECT DOWNLOAD FORMAT
+
+https://drive.google.com/uc?export=download&id=FILE_ID
+
+==========================================================================
+
+==========================================================================
+
+DIRECT DOWNLOAD LINKS
+
+IMAGE_URLS = {
+
+'A': 'https://drive.google.com/uc?export=download&id=11E6lCsp9AFQq2ElzfZQ_UrV9RihMuIEV',
+'B': 'https://drive.google.com/uc?export=download&id=1Od5a7OYDvjCHB0xwle6muPoAvpPiUvnQ',
+'C': 'https://drive.google.com/uc?export=download&id=1v9vumaz2j4zqlqPi9UmRtW1v2LnZ1xh5',
+'D': 'https://drive.google.com/uc?export=download&id=10POxe4_I6yG1n-G_e_XOpWzyzU3w8Q9v',
+'E': 'https://drive.google.com/uc?export=download&id=1LWPNSq8-nqQCfI8lrGlNy2URWYTL_f16',
+'F': 'https://drive.google.com/uc?export=download&id=18uC07m2EzYDSnfry9dsOTP0t-sXZ3cH3',
+'G': 'https://drive.google.com/uc?export=download&id=1XGGYwDkNbb4XvyLGcQXzyKK6Jxxc8fHK',
+'H': 'https://drive.google.com/uc?export=download&id=1xim-dJ3hor2DYPXIqkZMXcyT6ONHRsvk',
+'I': 'https://drive.google.com/uc?export=download&id=1gWseklvAmNGmqqZFjzvowVxxQd__ILQ5',
+'J': 'https://drive.google.com/uc?export=download&id=1RgNwPFB1Tw7NMLYnPyKissZbgg0OyvVd',
+'K': 'https://drive.google.com/uc?export=download&id=18ylfC5jfX8Sz_ayWbRgMM668WPZlIV8-',
+'L': 'https://drive.google.com/uc?export=download&id=1NCLeWc7MAfrdlo-Gh3U0yCQSiHLslCz1',
+'M': 'https://drive.google.com/uc?export=download&id=1K74XQACJvp-xWvv29Sp2EKEYz4vMTUfk',
+'N': 'https://drive.google.com/uc?export=download&id=1y6_NPjnVpqRMZoWjGHcwNyWw0qMgD2kZ',
+'O': 'https://drive.google.com/uc?export=download&id=17tT9PjtOdZz_qwun1e3GM3d68IfQpdSZ',
+'P': 'https://drive.google.com/uc?export=download&id=12niQPGHKd4W7YbD68XqTioCJIHjuQlFJ',
+'Q': 'https://drive.google.com/uc?export=download&id=1Takk-V-Y7pZER8Kpa_aWLn7IxWFLiOui',
+'R': 'https://drive.google.com/uc?export=download&id=1Oe_7DkaRHSO82kjTZv3zPwZPOjeLp3W3',
+'S': 'https://drive.google.com/uc?export=download&id=1U1IvQzhGhEg5mC85Y3SDexSsxtSeFAZ9',
+'T': 'https://drive.google.com/uc?export=download&id=13Uajzk6bA8K4abrd0JykMO-o1x6SA2lJ',
+'U': 'https://drive.google.com/uc?export=download&id=1RRIE3wYBFJu_n4hSHvIrqcDq_uTbOxEg',
+'V': 'https://drive.google.com/uc?export=download&id=1gDJxItXS_qUAK-lcC_pnkoSOr5KK6b8O',
+'W': 'https://drive.google.com/uc?export=download&id=1vwdr1IYpZc-vJ_nxpYSDl2KuYJ7roLt-',
+'X': 'https://drive.google.com/uc?export=download&id=1ll2rKEkQZRp_Jvv5YOind8gxDWmW65tD',
+'Y': 'https://drive.google.com/uc?export=download&id=1z4bDQzWSAg4bLSmfmfSgJfVQOjagqvgY',
+'Z': 'https://drive.google.com/uc?export=download&id=1pbcNSgMMJ8PsFFmmg5FdXmYMkNr113Yo'
+
+}
+
+==================================================================================================
+==================================================================================================

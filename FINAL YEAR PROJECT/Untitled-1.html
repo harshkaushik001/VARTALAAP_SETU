@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vartalaap Setu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        input {
+            width: 50%;
+            padding: 10px;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .sign-output {
+            margin-top: 20px;
+        }
+        .sign-output img {
+            width: 50px;
+            height: 50px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Vartalaap Setu</h1>
+    <p>Enter text below, and see it translated into sign language alphabets!</p>
+
+    <input type="text" id="textInput" placeholder="Enter text here...">
+    <button onclick="convertToSignLanguage()">Convert</button>
+
+    <div class="sign-output" id="signOutput"></div>
+
+    <script>
+        function convertToSignLanguage() {
+            const textInput = document.getElementById('textInput').value.toLowerCase();
+            const signOutput = document.getElementById('signOutput');
+            signOutput.innerHTML = '';
+
+            for (let char of textInput) {
+                if (char >= 'a' && char <= 'z') {
+                    const img = document.createElement('img');
+                    img.src = `https://static.signlanguage.io/letters/${char}.png`; // Replace with actual image path if hosting locally.
+                    img.alt = char;
+                    signOutput.appendChild(img);
+                } else if (char === ' ') {
+                    const space = document.createElement('div');
+                    space.style.width = '20px';
+                    space.style.display = 'inline-block';
+                    signOutput.appendChild(space);
+                }
+            }
+        }
+    </script>
+</body>
+</html>
